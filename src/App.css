@@ -496,13 +496,13 @@ body, html {
 
 
 /* 각 확대 이미지 별 클래스 추가 */
-.zoom-poster1 { background-image: url('/images/poster1.jpg'); }
-.zoom-poster2 { background-image: url('/images/poster2.jpg'); }
-.zoom-poster3 { background-image: url('/images/poster3.jpg'); }
+.zoom-poster1 { background-image: url('/images/poster1.png'); }
+.zoom-poster2 { background-image: url('/images/poster2.png'); }
+.zoom-poster3 { background-image: url('/images/poster3.png'); }
 
-.zoom-logo11 { background-image: url('/images/logo11.png'); }
-.zoom-logo22 { background-image: url('/images/logo22.png'); }
-.zoom-logo33 { background-image: url('/images/logo33.png'); }
-.zoom-logo44 { background-image: url('/images/logo44.png'); }
-.zoom-logo55 { background-image: url('/images/logo55.png'); }
-.zoom-logo66 { background-image: url('/images/logo66.png'); }
+.zoom-logo11 { background-image: url('/images/logo11.jpg'); }
+.zoom-logo22 { background-image: url('/images/logo22.jpg'); }
+.zoom-logo33 { background-image: url('/images/logo33.jpg'); }
+.zoom-logo44 { background-image: url('/images/logo44.jpg'); }
+.zoom-logo55 { background-image: url('/images/logo55.jpg'); }
+.zoom-logo66 { background-image: url('/images/logo66.jpg'); }
