@@ -417,3 +417,22 @@ body, html {
 .zoom-after-img3  { background-image: url('/images/af3.jpg'); }
 .zoom-before-img4 { background-image: url('/images/bf4.jpg'); }
 .zoom-after-img4  { background-image: url('/images/af4.jpg'); }
+
+.compare-images-pairs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.compare-pair {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 640px) {
+  .compare-pair {
+    flex-direction: row;
+  }
+}
+
