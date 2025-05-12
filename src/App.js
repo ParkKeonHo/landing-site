@@ -745,7 +745,7 @@ export default function SroonLandingPage() {
             rel="noopener noreferrer"
             className="cta-button"
           >
-            한정판 굿즈 체험단 지원하러가기
+            CLICK!! 굿즈 체험단 지원하러가기
           </a>
         </section>
 
