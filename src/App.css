@@ -436,3 +436,21 @@ body, html {
   }
 }
 
+.compare-pair.narrow {
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.fade-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-section.section-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
