@@ -409,11 +409,11 @@ body, html {
 }
 
 /* 이미지별 확대 배경 연결 */
-.zoom-before-img1 { background-image: url('/images/shoes-before-1.jpg'); }
-.zoom-after-img1  { background-image: url('/images/shoes-after-1.jpg'); }
-.zoom-before-img2 { background-image: url('/images/shoes-before-2.jpg'); }
-.zoom-after-img2  { background-image: url('/images/shoes-after-2.jpg'); }
-.zoom-before-img3 { background-image: url('/images/shoes-before-3.jpg'); }
-.zoom-after-img3  { background-image: url('/images/shoes-after-3.jpg'); }
-.zoom-before-img4 { background-image: url('/images/shoes-before-4.jpg'); }
-.zoom-after-img4  { background-image: url('/images/shoes-after-4.jpg'); }
+.zoom-before-img1 { background-image: url('/images/bf1.jpg'); }
+.zoom-after-img1  { background-image: url('/images/af1.jpg'); }
+.zoom-before-img2 { background-image: url('/images/bf2.jpg'); }
+.zoom-after-img2  { background-image: url('/images/af2.jpg'); }
+.zoom-before-img3 { background-image: url('/images/bf3.jpg'); }
+.zoom-after-img3  { background-image: url('/images/af3.jpg'); }
+.zoom-before-img4 { background-image: url('/images/bf4.jpg'); }
+.zoom-after-img4  { background-image: url('/images/af4.jpg'); }
