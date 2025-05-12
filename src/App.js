@@ -721,7 +721,7 @@ export default function SroonLandingPage() {
           className="fade-section logo-section"
           ref={(el) => (sectionsRef.current[3] = el)}
         >
-          <h3 className="section-title">✨ MAKE A SROON PROJECT 디자인</h3>
+          <h3 className="section-title">✨ 프로젝트 디자인</h3>
           <div className="logo-gallery">
             {[11, 22, 33, 44, 55, 66].map((num) => (
               <div
@@ -794,6 +794,21 @@ export default function SroonLandingPage() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* 주문서 버튼 */}
+        <section
+          className="fade-section"
+          ref={(el) => (sectionsRef.current[7] = el)}
+        >
+          <a
+            href="https://walla.my/sroon"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-button"
+          >
+            CLICK!! 암벽화 세척 주문하러가기
+          </a>
         </section>
 
         {/* 하단 링크 */}

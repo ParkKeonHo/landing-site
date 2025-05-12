@@ -488,7 +488,6 @@ body, html {
 .zoom-poster1, .zoom-poster2, .zoom-poster3,
 .zoom-logo11, .zoom-logo22, .zoom-logo33, .zoom-logo44, .zoom-logo55, .zoom-logo66 {
   width: 80vw;
-  height: auto;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
