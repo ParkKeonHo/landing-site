@@ -721,7 +721,7 @@ export default function SroonLandingPage() {
           className="fade-section logo-section"
           ref={(el) => (sectionsRef.current[3] = el)}
         >
-          <h3 className="section-title">✨ 브랜드 로고 디자인</h3>
+          <h3 className="section-title">✨ MAKE A SROON PROJECT 디자인</h3>
           <div className="logo-gallery">
             {[11, 22, 33, 44, 55, 66].map((num) => (
               <div
@@ -754,7 +754,7 @@ export default function SroonLandingPage() {
           className="fade-section testimonials"
           ref={(el) => (sectionsRef.current[5] = el)}
         >
-          <h3 className="section-title">✨ 서비스 이용 후기 ✨</h3>
+          <h3 className="section-title">✨ 슬운 서비스 이용 후기 ✨</h3>
           <blockquote>
             “초크가루, 냄새 제거제 가루가 싹 빠진 상태로 왔습니다!✨✨✨ 진짜 추천추천!!<br />내향인인 저에게는 비대면 신청, 비대면 픽업, 친절한 상담이 좋았습니다..!” – @boogipark_climber
           </blockquote>
