@@ -699,14 +699,31 @@ export default function SroonLandingPage() {
           </p>
         </section>
 
+        {/* 후기 섹션 */}
+        <section
+          className="fade-section testimonials"
+          ref={(el) => (sectionsRef.current[2] = el)}
+        >
+          <h3 className="section-title">✨ 서비스 이용 후기 ✨</h3>
+          <blockquote>
+            “초크가루, 냄새 제거제 가루가 싹 빠진 상태로 왔습니다!✨✨✨ 진짜 추천추천!!<br />내향인인 저에게는 비대면 신청, 비대면 픽업, 친절한 상담이 좋았습니다..!” – @boogipark_climber
+          </blockquote>
+          <blockquote>
+            “그냥 진짜 정말 진심 리얼루 향기나는 🧚🏻‍♀️새신발🧚🏻‍♀️이 되서 돌아 옵니다.. ” – @damclimb
+          </blockquote>
+          <blockquote>
+            “솔직히 빨아도 아무 소용 없을 줄 알고 속는 셈치고 맡겼는데 이게 왠걸👀 진짜 진심 놀랬어요” – @bbtv_jun
+          </blockquote>
+        </section>
+
         {/* 전후 비교 이미지 섹션 */}
         <section
           className="fade-section compare-section"
-          ref={(el) => (sectionsRef.current[2] = el)}
+          ref={(el) => (sectionsRef.current[3] = el)}
         >
           <h3 className="section-title">세척 전후 비교</h3>
           <div className="compare-images-pairs">
-            {[1, 2, 3, 4].map((num, index) => (
+            {[1, 4].map((num, index) => (
               <div
                 className="compare-pair fade-section"
                 key={`pair-${num}`}
@@ -727,23 +744,6 @@ export default function SroonLandingPage() {
               </div>
             ))}
           </div>
-        </section>
-
-        {/* 후기 섹션 */}
-        <section
-          className="fade-section testimonials"
-          ref={(el) => (sectionsRef.current[3] = el)}
-        >
-          <h3 className="section-title">✨ 체험단 후기 ✨</h3>
-          <blockquote>
-            “초크가루, 냄새 제거제 가루가 싹 빠진 상태로 왔습니다!✨✨✨ 진짜 추천추천!!<br />내향인인 저에게는 비대면 신청, 비대면 픽업, 친절한 상담이 좋았습니다..!” – @boogipark_climber
-          </blockquote>
-          <blockquote>
-            “그냥 진짜 정말 진심 리얼루 향기나는 🧚🏻‍♀️새신발🧚🏻‍♀️이 되서 돌아 옵니다.. ” – @damclimb
-          </blockquote>
-          <blockquote>
-            “솔직히 빨아도 아무 소용 없을 줄 알고 속는 셈치고 맡겼는데 이게 왠걸👀 진짜 진심 놀랬어요” – @bbtv_jun
-          </blockquote>
         </section>
 
         {/* 주문서 버튼 */}
