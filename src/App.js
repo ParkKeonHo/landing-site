@@ -723,7 +723,7 @@ export default function SroonLandingPage() {
         >
           <h3 className="section-title">✨ 브랜드 로고 디자인</h3>
           <div className="logo-gallery">
-            {[1, 2, 3, 4, 5, 6].map((num) => (
+            {[11, 22, 33, 44, 55, 66].map((num) => (
               <div
                 key={`logo-${num}`}
                 className={`logo-img logo${num} clickable`}
