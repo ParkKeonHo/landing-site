@@ -681,7 +681,7 @@ export default function SroonLandingPage() {
           ref={(el) => (sectionsRef.current[0] = el)}
         >
           <header className="header">
-            <h1 className="title">MAKE A SROON 1st PROJECT <br /> 체험단 모집</h1>
+            <h1 className="title">MAKE A SROON<br />1st PROJECT<br />체험단 모집</h1>
             <p className="subtitle">암벽화 세척을 넘어, 클라이밍 문화를 입히다</p>
           </header>
         </section>
@@ -691,14 +691,11 @@ export default function SroonLandingPage() {
           className="fade-section intro"
           ref={(el) => (sectionsRef.current[1] = el)}
         >
-          <h2 className="section-title">Worn Soles, New Heights</h2>
+          <h2 className="section-title">"Worn Soles, New Heights"</h2>
           <p className="description">
-            “Clean to climb! 우리는 버려지고 냄새나는 암벽화에 새로운 생명을 불어넣습니다.<br />
-            단순히 세척하는 것이 아닌, 클라이머들이 오래도록 신을 수 있도록 돕고,<br />
-            깨끗하고 유쾌한 클라이밍 문화를 만들어가는 것이 우리의 목표입니다.<br /><br />
-
-            손때 묻은 암벽화가 다시 벽을 오를 수 있도록, 클라이머들이 더 자유롭고 건강하게 도전할 수 있도록.<br />
-            슬운은 ’클라이밍의 즐거움이 오래 지속될 수 있도록‘ 하는 브랜드가 되고자 합니다.“<br />
+            “Clean to climb!"<br />
+            손때 묻은 암벽화가 다시 벽을 오를 수 있도록,<br />클라이머들이 더 자유롭게 도전할 수 있도록,<br />
+            클라이밍의 즐거움이 오래 지속될 수 있도록하는<br />브랜드가 되고자 합니다.<br />
           </p>
         </section>
 
@@ -760,7 +757,7 @@ export default function SroonLandingPage() {
             rel="noopener noreferrer"
             className="cta-button"
           >
-            체험단 지원
+            한정판 굿즈 체험단 지원하러가기
           </a>
         </section>
 
