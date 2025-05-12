@@ -423,7 +423,7 @@ body, html {
   flex-direction: row;
   gap: 20px;
   max-width: 60%;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
 }
 
 @media (max-width: 768px) {
@@ -432,6 +432,7 @@ body, html {
     max-width: 90%;
   }
 }
+
 
 .fade-section {
   opacity: 0;
@@ -443,5 +444,4 @@ body, html {
   opacity: 1;
   transform: translateY(0);
 }
-
 
