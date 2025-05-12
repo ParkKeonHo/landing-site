@@ -454,7 +454,7 @@ body, html {
 }
 
 .poster-img, .logo-img {
-  width: 30%;
+  width: 25%;
   aspect-ratio: 3 / 4;
   background-size: cover;
   background-position: center;
@@ -478,15 +478,15 @@ body, html {
 .poster2 { background-image: url('/images/poster2.png'); }
 .poster3 { background-image: url('/images/poster3.png'); }
 
-.logo1 { background-image: url('/images/logo11.jpg'); }
-.logo2 { background-image: url('/images/logo22.jpg'); }
-.logo3 { background-image: url('/images/logo33.jpg'); }
-.logo4 { background-image: url('/images/logo44.jpg'); }
-.logo5 { background-image: url('/images/logo55.jpg'); }
-.logo6 { background-image: url('/images/logo66.jpg'); }
+.logo11 { background-image: url('/images/logo11.jpg'); }
+.logo22 { background-image: url('/images/logo22.jpg'); }
+.logo33 { background-image: url('/images/logo33.jpg'); }
+.logo44 { background-image: url('/images/logo44.jpg'); }
+.logo55 { background-image: url('/images/logo55.jpg'); }
+.logo66 { background-image: url('/images/logo66.jpg'); }
 
 .zoom-poster1, .zoom-poster2, .zoom-poster3,
-.zoom-logo1, .zoom-logo2, .zoom-logo3, .zoom-logo4, .zoom-logo5, .zoom-logo6 {
+.zoom-logo11, .zoom-logo22, .zoom-logo33, .zoom-logo44, .zoom-logo55, .zoom-logo66 {
   width: 80vw;
   height: auto;
   background-size: contain;
