@@ -218,3 +218,70 @@ body, html {
     padding: 14px 28px;
   }
 }
+
+.before-img1 {
+  background-image: url('/images/bf1.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  height: 300px;
+  border: 3px solid white;
+}
+
+.after-img1 {
+  background-image: url('/images/af1.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  height: 300px;
+  border: 3px solid white;
+}
+.before-img2 {
+  background-image: url('/images/bf2.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  height: 300px;
+  border: 3px solid white;
+}
+
+.after-img2 {
+  background-image: url('/images/af2.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  height: 300px;
+  border: 3px solid white;
+}.before-img3 {
+  background-image: url('/images/bf3.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  height: 300px;
+  border: 3px solid white;
+}
+
+.after-img3 {
+  background-image: url('/images/af3.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  height: 300px;
+  border: 3px solid white;
+}.before-img4 {
+  background-image: url('/images/bf4.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  height: 300px;
+  border: 3px solid white;
+}
+
+.after-img4 {
+  background-image: url('/images/af4.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  height: 300px;
+  border: 3px solid white;
+}

@@ -35,37 +35,29 @@ export default function SroonLandingPage() {
         <section className="fade-in fade-in-up delay-3 compare-section">
           <h3 className="section-title">세척 전후 비교</h3>
           <div className="compare-images">
-            <div className="compare-block">
+            <div className="compare-block before-img1">
               <p className="label">Before</p>
-              <img src="../images/bf1.jpg" alt="세척 전 암벽화" className="compare-img" />
             </div>
-            <div className="compare-block">
+            <div className="compare-block after-img1">
               <p className="label">After</p>
-              <img src="../images/af1.jpg" alt="세척 후 암벽화" className="compare-img" />
             </div>
-            <div className="compare-block">
+            <div className="compare-block before-img2">
               <p className="label">Before</p>
-              <img src="../images/bf2.jpg" alt="세척 전 암벽화" className="compare-img" />
             </div>
-            <div className="compare-block">
+            <div className="compare-block after-img2">
               <p className="label">After</p>
-              <img src="../images/af2.jpg" alt="세척 후 암벽화" className="compare-img" />
             </div>
-            <div className="compare-block">
+            <div className="compare-block before-img3">
               <p className="label">Before</p>
-              <img src="../images/bf3.jpg" alt="세척 전 암벽화" className="compare-img" />
             </div>
-            <div className="compare-block">
+            <div className="compare-block after-img3">
               <p className="label">After</p>
-              <img src="../images/af3.jpg" alt="세척 후 암벽화" className="compare-img" />
             </div>
-            <div className="compare-block">
+            <div className="compare-block before-img4">
               <p className="label">Before</p>
-              <img src="../images/bf4.jpg" alt="세척 전 암벽화" className="compare-img" />
             </div>
-            <div className="compare-block">
+            <div className="compare-block after-img4">
               <p className="label">After</p>
-              <img src="../images/af4.jpg" alt="세척 후 암벽화" className="compare-img" />
             </div>
           </div>
         </section>
