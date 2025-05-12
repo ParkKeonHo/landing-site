@@ -13,7 +13,7 @@ export default function SroonLandingPage() {
         {/* 로고 및 헤더 */}
         <section className="fade-in fade-in-down delay-1">
           <header className="header">
-            <h1 className="title">MAKE A SROON 1st PROJECT 체험단 모집</h1>
+            <h1 className="title">MAKE A SROON 1st PROJECT <br /> 체험단 모집</h1>
             <p className="subtitle">암벽화 세척을 넘어, 클라이밍 문화를 입히다</p>
           </header>
         </section>
@@ -22,9 +22,6 @@ export default function SroonLandingPage() {
         <section className="fade-in fade-in-up delay-2 intro">
           <h2 className="section-title">Worn Soles, New Heights</h2>
           <p className="description">
-            슬운은 낡은 암벽화에 새로운 생명을 불어넣습니다.
-            단순한 세척을 넘어, 클라이머의 여정과 감성을 담아내는 브랜드입니다.<br />
-            함께 걷고, 함께 오르는 그 첫걸음을 슬운과 함께하세요.
             “Clean to climb! 우리는 버려지고 냄새나는 암벽화에 새로운 생명을 불어넣습니다.<br />
             단순히 세척하는 것이 아닌, 클라이머들이 오래도록 신을 수 있도록 돕고,<br />
             깨끗하고 유쾌한 클라이밍 문화를 만들어가는 것이 우리의 목표입니다.<br /><br />
@@ -40,35 +37,35 @@ export default function SroonLandingPage() {
           <div className="compare-images">
             <div className="compare-block">
               <p className="label">Before</p>
-              <img src="/images/bf1.jpg" alt="세척 전 암벽화" className="compare-img" />
+              <img src="../images/bf1.jpg" alt="세척 전 암벽화" className="compare-img" />
             </div>
             <div className="compare-block">
               <p className="label">After</p>
-              <img src="/images/af1.jpg" alt="세척 후 암벽화" className="compare-img" />
+              <img src="../images/af1.jpg" alt="세척 후 암벽화" className="compare-img" />
             </div>
             <div className="compare-block">
               <p className="label">Before</p>
-              <img src="/images/bf2.jpg" alt="세척 전 암벽화" className="compare-img" />
+              <img src="../images/bf2.jpg" alt="세척 전 암벽화" className="compare-img" />
             </div>
             <div className="compare-block">
               <p className="label">After</p>
-              <img src="/images/af2.jpg" alt="세척 후 암벽화" className="compare-img" />
+              <img src="../images/af2.jpg" alt="세척 후 암벽화" className="compare-img" />
             </div>
             <div className="compare-block">
               <p className="label">Before</p>
-              <img src="/images/bf3.jpg" alt="세척 전 암벽화" className="compare-img" />
+              <img src="../images/bf3.jpg" alt="세척 전 암벽화" className="compare-img" />
             </div>
             <div className="compare-block">
               <p className="label">After</p>
-              <img src="/images/af3.jpg" alt="세척 후 암벽화" className="compare-img" />
+              <img src="../images/af3.jpg" alt="세척 후 암벽화" className="compare-img" />
             </div>
             <div className="compare-block">
               <p className="label">Before</p>
-              <img src="/images/bf4.jpg" alt="세척 전 암벽화" className="compare-img" />
+              <img src="../images/bf4.jpg" alt="세척 전 암벽화" className="compare-img" />
             </div>
             <div className="compare-block">
               <p className="label">After</p>
-              <img src="/images/af4.jpg" alt="세척 후 암벽화" className="compare-img" />
+              <img src="../images/af4.jpg" alt="세척 후 암벽화" className="compare-img" />
             </div>
           </div>
         </section>
