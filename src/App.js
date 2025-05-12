@@ -699,10 +699,60 @@ export default function SroonLandingPage() {
           </p>
         </section>
 
+        {/* 포스터 섹션 */}
+        <section
+          className="fade-section poster-section"
+          ref={(el) => (sectionsRef.current[2] = el)}
+        >
+          <h3 className="section-title">📌 프로젝트 포스터</h3>
+          <div className="poster-gallery">
+            {[1, 2, 3].map((num) => (
+              <div
+                key={`poster-${num}`}
+                className={`poster-img poster${num} clickable`}
+                onClick={() => handleImageClick(`zoom-poster${num}`)}
+              ></div>
+            ))}
+          </div>
+        </section>
+
+        {/* 로고 섹션 */}
+        <section
+          className="fade-section logo-section"
+          ref={(el) => (sectionsRef.current[3] = el)}
+        >
+          <h3 className="section-title">✨ 브랜드 로고 디자인</h3>
+          <div className="logo-gallery">
+            {[1, 2, 3, 4, 5, 6].map((num) => (
+              <div
+                key={`logo-${num}`}
+                className={`logo-img logo${num} clickable`}
+                onClick={() => handleImageClick(`zoom-logo${num}`)}
+              ></div>
+            ))}
+          </div>
+        </section>
+
+
+        {/* 주문서 버튼 */}
+        <section
+          className="fade-section"
+          ref={(el) => (sectionsRef.current[4] = el)}
+        >
+          <a
+            href="https://forms.gle/fwgdgTui1LVvSew16"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-button"
+          >
+            한정판 굿즈 체험단 지원하러가기
+          </a>
+        </section>
+
         {/* 후기 섹션 */}
         <section
           className="fade-section testimonials"
-          ref={(el) => (sectionsRef.current[2] = el)}
+          ref={(el) => (sectionsRef.current[5] = el)}
         >
           <h3 className="section-title">✨ 서비스 이용 후기 ✨</h3>
           <blockquote>
@@ -719,7 +769,7 @@ export default function SroonLandingPage() {
         {/* 전후 비교 이미지 섹션 */}
         <section
           className="fade-section compare-section"
-          ref={(el) => (sectionsRef.current[3] = el)}
+          ref={(el) => (sectionsRef.current[6] = el)}
         >
           <h3 className="section-title">세척 전후 비교</h3>
           <div className="compare-images-pairs">
@@ -744,21 +794,6 @@ export default function SroonLandingPage() {
               </div>
             ))}
           </div>
-        </section>
-
-        {/* 주문서 버튼 */}
-        <section
-          className="fade-section"
-          ref={(el) => (sectionsRef.current[4] = el)}
-        >
-          <a
-            href="https://forms.gle/fwgdgTui1LVvSew16"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cta-button"
-          >
-            한정판 굿즈 체험단 지원하러가기
-          </a>
         </section>
 
         {/* 하단 링크 */}
