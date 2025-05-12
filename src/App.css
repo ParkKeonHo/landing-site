@@ -285,3 +285,135 @@ body, html {
   height: 300px;
   border: 3px solid white;
 }
+
+.before-img1,
+.after-img1 {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  border: 3px solid white;
+  height: 300px; /* 기본 높이 (PC 기준) */
+}
+
+@media (max-width: 768px) {
+  .before-img1,
+  .after-img1 {
+    height: 400px; /* 모바일에서 더 크게 */
+  }
+}
+
+@media (max-width: 480px) {
+  .before-img1,
+  .after-img1 {
+    height: 320px; /* 아주 작은 화면에서는 조금 줄여서 */
+  }
+}
+
+.before-img2,
+.after-img2 {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  border: 3px solid white;
+  height: 300px; /* 기본 높이 (PC 기준) */
+}
+
+@media (max-width: 768px) {
+  .before-img2,
+  .after-img2 {
+    height: 400px; /* 모바일에서 더 크게 */
+  }
+}
+
+@media (max-width: 480px) {
+  .before-img2,
+  .after-img2 {
+    height: 320px; /* 아주 작은 화면에서는 조금 줄여서 */
+  }
+}
+
+.before-img3,
+.after-img3 {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  border: 3px solid white;
+  height: 300px; /* 기본 높이 (PC 기준) */
+}
+
+@media (max-width: 768px) {
+  .before-img3,
+  .after-img3 {
+    height: 400px; /* 모바일에서 더 크게 */
+  }
+}
+
+@media (max-width: 480px) {
+  .before-img3,
+  .after-img3 {
+    height: 320px; /* 아주 작은 화면에서는 조금 줄여서 */
+  }
+}
+
+.before-img4,
+.after-img4 {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  border: 3px solid white;
+  height: 300px; /* 기본 높이 (PC 기준) */
+}
+
+@media (max-width: 768px) {
+  .before-img4,
+  .after-img4 {
+    height: 400px; /* 모바일에서 더 크게 */
+  }
+}
+
+@media (max-width: 480px) {
+  .before-img4,
+  .after-img4 {
+    height: 320px; /* 아주 작은 화면에서는 조금 줄여서 */
+  }
+}
+/* 클릭 가능한 전후 이미지 */
+.clickable {
+  cursor: zoom-in;
+}
+
+/* 확대된 이미지 오버레이 */
+.zoomed-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: zoom-out;
+}
+
+.zoomed-image {
+  width: 90%;
+  max-width: 700px;
+  height: 80vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 12px;
+  border: 4px solid white;
+}
+
+/* 이미지별 확대 배경 연결 */
+.zoom-before-img1 { background-image: url('/images/shoes-before-1.jpg'); }
+.zoom-after-img1  { background-image: url('/images/shoes-after-1.jpg'); }
+.zoom-before-img2 { background-image: url('/images/shoes-before-2.jpg'); }
+.zoom-after-img2  { background-image: url('/images/shoes-after-2.jpg'); }
+.zoom-before-img3 { background-image: url('/images/shoes-before-3.jpg'); }
+.zoom-after-img3  { background-image: url('/images/shoes-after-3.jpg'); }
+.zoom-before-img4 { background-image: url('/images/shoes-before-4.jpg'); }
+.zoom-after-img4  { background-image: url('/images/shoes-after-4.jpg'); }
