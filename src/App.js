@@ -681,7 +681,7 @@ export default function SroonLandingPage() {
           ref={(el) => (sectionsRef.current[0] = el)}
         >
           <header className="header">
-            <h1 className="title">MAKE A SROON<br />1st PROJECT<br />체험단 모집</h1>
+            <h1 className="title">MAKE A SROON<br />1st PROJECT<br /></h1>
             <p className="subtitle">암벽화 세척을 넘어, 클라이밍 문화를 입히다</p>
           </header>
         </section>
@@ -731,22 +731,6 @@ export default function SroonLandingPage() {
               ></div>
             ))}
           </div>
-        </section>
-
-
-        {/* 주문서 버튼 */}
-        <section
-          className="fade-section"
-          ref={(el) => (sectionsRef.current[4] = el)}
-        >
-          <a
-            href="https://forms.gle/fwgdgTui1LVvSew16"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cta-button"
-          >
-            CLICK!! 굿즈 체험단 지원하러가기
-          </a>
         </section>
 
         {/* 후기 섹션 */}
